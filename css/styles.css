@@ -64,7 +64,7 @@ section {
 
 .current {
   position: relative;
-  color: #404bbf;
+  color:#404bbf;
 }
 .container-header-container {
   display: flex;
@@ -121,6 +121,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-studio:hover,
 .contacts-studio:focus {
@@ -130,11 +131,7 @@ section {
 .page-hero {
   position: relative;
   max-width: 1440px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero-image.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.ipg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,6 +167,7 @@ section {
   padding-left: 32px;
   padding-right: 32px;
   display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .page-hero-button:hover,
 .page-hero-button:focus {
@@ -285,7 +283,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .team-link {
@@ -441,4 +439,12 @@ section {
 
 .portfolio-list-unit:hover .overlay {
   transform: translateY(0%);
+}
+
+.icon{
+  fill: #f4f4fd;
+}
+
+.icons-footer{
+  fill: #f4f4fd;
 }
