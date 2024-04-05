@@ -283,7 +283,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
+}
+
+.team-list-item {
+
 }
 
 .team-link {
@@ -298,7 +302,7 @@ section {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link:hover,
-.team-list:focus {
+.team-link:focus {
   background-color: #404bbf;
 }
 
@@ -407,12 +411,15 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .footer-link:hover,
 .footer-link:focus {
   background-color: #31d0aa;
+}
+.footer-list-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-box {
