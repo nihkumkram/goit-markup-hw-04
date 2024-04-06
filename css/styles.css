@@ -62,7 +62,7 @@ section {
   background-color: #404bbf;
 }
 
-.current {
+.header-nav.current {
   position: relative;
   color: #404bbf;
 }
@@ -98,11 +98,11 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: #2e2f42;
 }
 .header-nav:hover,
 .header-nav:focus {
-  color: #2e2f42;
+  color: #404bbf;
 }
 .contacts-header {
   font-style: normal;
@@ -212,7 +212,6 @@ section {
 }
 .about-list {
   display: flex;
-  padding: 188px 0;
   gap: 24px;
 }
 
@@ -253,7 +252,6 @@ section {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
   align-items: center;
   justify-content: center;
 }
@@ -281,6 +279,7 @@ section {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .team-icons {
